@@ -1,0 +1,1 @@
+window.addEventListener("DOMContentLoaded",function(){var e,t=window;(e=new URLSearchParams(t.location.search).get("aff_id")||localStorage.getItem("aff_id")||null)&&localStorage.setItem("aff_id",e);let l=document.querySelectorAll("#sellz-button");if(l)for(let f=0;f<l.length;f++)l[f].addEventListener("click",l=>{e&&(t.location.href=`https://pay.sellz.co/aff?aff_id=${e}`)})});
